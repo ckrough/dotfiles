@@ -1,3 +1,5 @@
+
+
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
@@ -12,14 +14,6 @@ bindkey '^N' history-search-forward
 
 # Path
 export PATH=$HOME/bin:$PATH
-
-# configure powerline
-if [ -f `which powerline-daemon` ]; then
-  powerline-daemon -q
-  POWERLINE_ZSH_CONTINUATION=1
-  POWERLINE_ZSH_SELECT=1
-  . /usr/share/powerline/zsh/powerline.zsh
-fi
 
 # Fix compiler errors with later versions of XCODE
 export CFLAGS=-Qunused-arguments
@@ -73,3 +67,5 @@ ZSH_TMUX_AUTOSTART="false"
 plugins=(virtualenvwrapper httpie history tmux vagrant vi)
 
 source $ZSH/oh-my-zsh.sh
+
+source /usr/share/powerline/zsh/powerline.zsh
