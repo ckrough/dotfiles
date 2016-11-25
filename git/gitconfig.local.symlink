@@ -1,0 +1,5 @@
+[user]
+        name = ckrough
+        email = chris@krough.org
+[credential]
+        helper = cache
