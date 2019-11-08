@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh configuration.
-ZSH=/usr/share/oh-my-zsh
+ZSH=~/.oh-my-zsh
 
 export EDITOR="vim"
 bindkey -v
@@ -53,6 +53,6 @@ ZSH_TMUX_AUTOSTART="false"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(httpie history tmux vi)
+plugins=(httpie git aws)
 
 source $ZSH/oh-my-zsh.sh
