@@ -2,21 +2,10 @@
 ZSH=~/.oh-my-zsh
 
 export EDITOR="vim"
-bindkey -v
-
-# vi style incremental search
-bindkey '^R' history-incremental-search-backward
-bindkey '^S' history-incremental-search-forward
-bindkey '^P' history-search-backward
-bindkey '^N' history-search-forward  
 
 # Path
 export PATH=$HOME/bin:$PATH
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
 ZSH_THEME="robbyrussell"
 
 alias gitclean='git branch --merged master | grep -v "\* master" | xargs -n 1 git branch -d'

@@ -3,3 +3,7 @@
         email = chris@krough.org
 [credential]
         helper = cache
+[alias]
+	co = checkout
+	br = branch
+	st = status
